@@ -1,0 +1,17 @@
+{
+  "name": "myduckisdead",
+  "categories": ["movies"],
+  "search": {
+    "url": "https://myduckisdead.org/?s=",
+    "itemKeys": {
+      "root": ".post-content",
+      "name": ".entry-title a",
+      "thumbnail": {
+        "key": ".size-full",
+        "attribute": "src",
+        "onItemPage": true
+      },
+      "link": ".entry-title a"
+    }
+  }
+}

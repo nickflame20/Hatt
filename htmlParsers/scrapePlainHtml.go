@@ -16,7 +16,7 @@ import (
 func ScrapePlainHtml(config configuration.Config) []variables.Item {
 	var items []variables.Item
 	c := colly.NewCollector()
-	c.UserAgent = "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/109.0"
+	c.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 	itemKeys := config.Search.ItemKeys
 
 	// c.OnHTML("body", func(h *colly.HTMLElement) {
